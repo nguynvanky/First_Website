@@ -1,1 +1,3 @@
-console.log("hello123");
+var string = "Con cac";
+console.log(string);
+
