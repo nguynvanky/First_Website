@@ -1,81 +1,13 @@
-.article {
-	width: 1900px;
+html {
+	background-image: url(https://image.vtc.vn/resize/th/upload/2020/12/14/christmas-22151557.jpg);
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	background-repeat:round;
 }
 
-.article h1 {
-	margin-top: 1%;
-	margin-right: 1%;
-	margin-left: 1%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	padding-left: 35%;
-	color: white;
-	border-radius: 10px;
-	background-color: black;
-}
-
-.article h2 {
-	margin-top: 10px;
-	margin-left: 960px;
-}
-
-#circle {
-	width: 200px;
-	height: 200px;
-	margin-top: 15px;
-	margin-left: 900px;
-	border-radius: 100px;
-	background: red;
-}
-
-#star-five {
-	position: relative;
+#audio{
 	display: block;
-	width: 0;
-	height: 0;
-	margin: 50px 0;
-	-webkit-transform: rotate(35deg);
-	-moz-transform: rotate(35deg);
-	-ms-transform: rotate(35deg);
-	-o-transform: rotate(35deg);
-	color: red;
-	border-right: 100px solid transparent;
-	border-bottom: 70px  solid red;
-	border-left: 100px solid transparent;
+    text-align: center;
+	opacity: 0.1%;
 }
-
-#star-five:before {
-	position: absolute;
-	top: -45px;
-	left: -65px;
-	display: block;
-	width: 0;
-	height: 0;
-	content: '';
-	-webkit-transform: rotate(-35deg);
-	-moz-transform: rotate(-35deg);
-	-ms-transform: rotate(-35deg);
-	-o-transform: rotate(-35deg);
-	border-right: 30px solid transparent;
-	border-bottom: 80px solid red;
-	border-left: 30px solid transparent;
-}
-
-#star-five:after {
-	position: absolute;
-	top: 3px;
-	left: -105px;
-	display: block;
-	width: 0;
-	height: 0;
-	content: '';
-	-webkit-transform: rotate(-70deg);
-	-moz-transform: rotate(-70deg);
-	-ms-transform: rotate(-70deg);
-	-o-transform: rotate(-70deg);
-	color: red;
-	border-right: 100px solid transparent;
-	border-bottom: 70px solid red;
-	border-left: 100px solid transparent;
-}
-

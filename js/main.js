@@ -1,3 +1,3 @@
-var string = "Con cac";
-console.log(string);
-
+function hello(){  
+    alert("hello html button");  
+} 

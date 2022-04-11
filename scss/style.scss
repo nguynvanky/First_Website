@@ -1,80 +1,26 @@
-.article{
-  width: 1900px;
-  h1{
-    margin-top: 1%;
-    margin-left:1%;
-    margin-right:1%;
+html {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.articles{
+  display: flex;
+  margin: 5px;
+  .article{
+    width: 500px;
+    margin-left: 5px;
+    border: black;
+    border-style:solid;
+    border-width: 2px;
 
-    padding-left: 35%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    color: white;
-    background-color: black;  
-    border-radius: 10px; 
-  };
-  h2{
-    margin-top: 10px;
-    margin-left: 960px;
+    img{
+      width: 100%;  
+    };
+    p{
+      font-size: 16px;
+      padding: 5px;
+    } 
+    button{
+      margin-left: 5%;
+    }
   }
-  
-}
-
-#circle {
-  margin-top: 15px;
-  margin-left: 900px;
-	width: 200px;
-	height: 200px;
-	background: red;
-	-moz-border-radius: 100px;
-	-webkit-border-radius: 100px;
-	border-radius: 100px;
-}
-#star-five {
-  margin: 50px 0;
-  position: relative;
-  display: block;
-  color: red;
-  width: 0px;
-  height: 0px;
-  border-right:  100px solid transparent;
-  border-bottom: 70px  solid red;
-  border-left:   100px solid transparent;
-  -moz-transform:    rotate(35deg);
-  -webkit-transform: rotate(35deg);
-  -ms-transform:     rotate(35deg);
-  -o-transform:      rotate(35deg);
-}
-#star-five:before {
-  border-bottom: 80px solid red;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -45px;
-  left: -65px;
-  display: block;
-  content: '';
-  -webkit-transform: rotate(-35deg);
-  -moz-transform:    rotate(-35deg);
-  -ms-transform:     rotate(-35deg);
-  -o-transform:      rotate(-35deg);
-
-}
-#star-five:after {
-  position: absolute;
-  display: block;
-  color: red;
-  top: 3px;
-  left: -105px;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid red;
-  border-left: 100px solid transparent;
-  -webkit-transform: rotate(-70deg);
-  -moz-transform:    rotate(-70deg);
-  -ms-transform:     rotate(-70deg);
-  -o-transform:      rotate(-70deg);
-  content: '';
-}
+} 
