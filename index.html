@@ -5,28 +5,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile</title>
+  <title>Document</title>
 </head>
+<style>
+  #panel,
+  .flip {
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    background-color: pink;
+    color: white;
+    border: solid 1px pink;
+    margin: auto;
+  }
 
-<body style="display:flex;">
-  <div
-    style="margin:auto; border-width: 1%; border-style:solid ;border-radius: 10px; box-shadow: 0px 4px 10px 0px grey; width:300px;">
-    <center> <img width=80%
-        src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/269308914_2897688810528769_2449764458648601906_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=37E8B26DS4gAX_ujxoH&_nc_ht=scontent.fsgn2-6.fna&oh=00_AT-AADbe_MgYJbGN_rGEpxFKk52KicX-YHEGP6Y9A3j9og&oe=6258D0FD"
-        alt="Hình ảnh cá nhân" style="margin-top: 10%;">
-    </center>
-    <p align="center" style="font-size:100%"><b>Tâm Như CuTe</p></b>
-    <b>
-      <ul>
-        <li>Ngày sinh: <u>08/09/2003</u></li>
-        <li>SĐT: <u>0869791054</u></li>
-        <li>Instagram: <a href="https://www.instagram.com/ngtmnhuu/" target="_blank">ngtmnhuu</a>
-        </li>
-        <li>Facebook: <a href="https://www.facebook.com/nhu.tam.10441" target="_blank">Nguyễn Tâm Như</a>
-        </li>
-      </ul>
-    </b>
+  .flip:hover {
+    opacity: 0.9;
+    cursor: pointer;
+
+  }
+
+  #panel {
+    display: none;
+  }
+</style>
+
+<body>
+  <div>
+    <p class="flip" onclick="myFunction()">
+      Bấm vào đây đi
+    </p>
+    <div id="panel">
+      <p>Gia Nhi là đồ dễ thương</p>
+    </div>
   </div>
+  <script>
+    function myFunction() {
+      if (document.getElementById("panel").style.display == "block")
+        document.getElementById("panel").style.display = "none"
+      else
+        document.getElementById("panel").style.display = "block"
+    }
+  </script>
 </body>
 
 </html>
